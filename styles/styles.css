@@ -1,0 +1,51 @@
+body{
+    background-color: #ccc;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tweet{
+        background-color: #FFFFFF;
+        width: 600px;
+        margin: 10px 20px; /* va en sentido de agujas del reloj. asigna uno en horznt y otro en vr*/
+        padding: 20px;     /* despega el texto del borde */
+      
+}
+
+.tweet .tweet-header{
+
+}
+
+.tweet .tweet-header .avatar{
+        width: 60px;
+        height: 60px;
+        background-color: gray;
+        border-radius: 30px;
+}
+
+.tweet .tweet-header .account-name{
+
+    font-weight: bold;
+
+}
+
+.tweet .tweet-header .user-name{
+font-weight: normal;
+font-size: 14px;
+color: #999999
+}
+
+.tweet .tweet-header .follow{
+    display: block;
+    border: 1px solid red;                  /*tamaño, estilo y color*/
+    border-radius: 50px;
+    width: 100px;
+    padding: 10px;
+    text-align: center;
+    text-decoration: none;
+    color: red;
+}
+
+.tweet .tweet-header .follow:hover {
+    background-color: red;
+    color: white;
+}
